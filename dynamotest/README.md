@@ -83,3 +83,29 @@ spring:
     activate:
       on-profile: prod
 ````
+# Git
+clone  && run
+````
+ git clone https://github.com/eakouong/dynamo.git
+ git checkout master
+ ./mvnw clean install
+ ./mvnw spring-boot:run
+````
+commit
+````
+git add . or git add <namefile>
+git commit -m "commit message"
+git push 
+````
+pull
+````
+git pull --rebase
+````
+
+merge
+````
+git checkout <your_current_branch>
+git merge  <your_current_branch>
+git push
+get log ดู
+````
